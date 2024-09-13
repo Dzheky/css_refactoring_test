@@ -1,0 +1,9 @@
+/* Scoped CSS (CSS Modules-like behavior) */
+.header {
+  color: darkgreen;
+}
+
+.content {
+  font-size: 16px;
+  color: black;
+}

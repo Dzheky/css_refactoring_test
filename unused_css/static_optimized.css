@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+}
+
+/* Global unscoped CSS */
+h1, h2 {
+  color: blue;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.dynamic-content {
+  color: green;
+}
+
+/* Excessive unused CSS */
+
+/* Deeply nested unused CSS */
+
+/* Long and complex selectors */
+
+/* More unused classes */
+
+/* Even more unused CSS */
+
+/* Deeply nested CSS */
+div div {
+  color: #d38717;
+  font-weight: bold;
+  padding: 17px;
+  margin-left: 43px;
+}
+
+div div div {
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #c775b3;
+  border: 4px solid #1e5adf;
+}
+
+div div div div {
+  text-transform: uppercase;
+  padding: 8px;
+  color: #a15d11;
+  line-height: 1.7;
+}
+
+div div div div div {
+  margin-left: 19px;
+  font-weight: normal;
+  color: #865ba6;
+  background-color: #618282;
+}
+
+div div div div div div {
+  font-size: 22px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #1a8cf1;
+}
+
+div div div div div div div {
+  font-size: 17px;
+  padding: 10px;
+  line-height: 1.1;
+  color: #9e6dd7;
+}
+
+div div div div div div div div {
+  letter-spacing: 2px;
+  margin-left: 9px;
+  font-weight: bold;
+  background-color: #d2ba42;
+}
+
+div div div div div div div div div {
+  background-color: #bfc482;
+  color: #6177ff;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+div div div div div div div div div div {
+  padding: 11px;
+  color: #d3d389;
+  margin-left: 46px;
+  border: 3px solid #c4ba25;
+}
+
+
+/* Unused CSS Classes */

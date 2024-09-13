@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unoptimized Dynamic Page</title>
+    <link rel="stylesheet" href="dynamic_optimized.css">
+</head>
+
+<body>
+
+    <h1>Unoptimized Dynamic Page</h1>
+    <p>This page dynamically loads content on page load. It contains a significant amount of global and unused CSS
+        styles,
+        which are not utilized by the content.</p>
+
+    <!-- Content container where everything is loaded dynamically -->
+    <div id="dynamic_unoptimized__dynamic-content___IkVS6"></div>
+
+    <!-- Script to dynamically load content on page load -->
+    <script>
+        window.onload = function () {
+            const contentContainer = document.getElementById('dynamic_unoptimized__dynamic-content___IkVS6')
+            contentContainer.innerHTML = `
+                <section>
+                    <h2>Section One</h2>
+                    <p>This is the first section with static content. It has global styles applied, but many styles in the CSS file are unused or unnecessarily complex.</p>
+                </section>
+
+                <section>
+                    <h2>Section Two</h2>
+                    <p>This section has some static content, but more complex content is dynamically loaded below.</p>
+                    <div class="dynamic_unoptimized__dynamic-content___IkVS6">This content was loaded dynamically when the page loaded.</div>
+                    <div class="extra-style">
+                        <div class="inner-div">Dynamically loaded content with unused styles.</div>
+                    </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="level-1">
+                      <p>Level 1</p>
+                      <div class="dynamic_unoptimized__level_1___MVX6X">
+                          <p>Level 2</p>
+                          <div class="dynamic_unoptimized__level_2___MVX6X">
+                              <h1>Level 3</h1>
+                              <div class="dynamic_unoptimized__level_4___MVX6X">
+                                  <p>Level 4</p>
+                                  <div class="dynamic_unoptimized__level_5___MVX6X">
+                                      <h1>Level 5</h1>
+                                      <div class="dynamic_unoptimized__level_6___MVX6X">
+                                          <p>Level 6</p>
+                                          <div class="dynamic_unoptimized__level_7___MVX6X">
+                                              <h1>Level 7</h1>
+                                              <div class="dynamic_unoptimized__level_8___MVX6X">
+                                                  <p>Level 8</p>
+                                                  <div class="dynamic_unoptimized__level_9___MVX6X">
+                                                      <h1>Level 9</h1>
+                                                      <div class="dynamic_unoptimized__level_10___MVX6X">
+                                                          <p>Level 10</p>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
+            `
+        };
+    </script>
+</body>
+
+</html>
